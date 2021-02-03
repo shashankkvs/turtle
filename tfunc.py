@@ -10,5 +10,7 @@ if __name__ == "__main__":
         pointer.color(input("enter color:"))
         arrow_c()
         while True:
-           pass 
+           x=input()
+           if "d" in x: pointer.fd(100)
+           elif x=="q": break
 
